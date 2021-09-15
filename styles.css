@@ -4,7 +4,6 @@ FUENTES UTILIZADAS:
 font-family: 'Passion One', cursive;
 font-family: 'Roboto Condensed', sans-serif;
 */
-
 *{
 	margin: 0;
 	padding: 0;
@@ -14,18 +13,27 @@ font-family: 'Roboto Condensed', sans-serif;
 	outline: none;
 }
 body{
-    width: 95%;
+    width: 100%;
+
 }
+h1,p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 27px;
+}
+
 /*INICIO DEL HEADER*/
 header{
     display: flex;
-    flex-wrap: wrap;
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     height: 75px;
-    margin: 10px 20px;
+    margin: 10px 100px;
     border-bottom: 1px solid #206A5D;
 }
 .PageName{
@@ -33,13 +41,13 @@ header{
     align-items: center;
 }
 header h1{
-    font-size: 42px;
+    font-size: 50px;
     font-family: 'Passion One', cursive;
     font-weight: lighter;
 }
 header img{
     width: 45px;
-    margin: 2px 10px;
+    margin: 2px 5px;
 }
 header ul{
     display: flex;
@@ -68,19 +76,59 @@ header ul li:hover{
 .Presentation{
     display: flex;
     align-items: center;
-    margin: 70px 30px;
+    width: auto;
+    height: 550px;
+    margin: 0 65px 280px 65px;
+}
+.PresentationText{
+    margin: 0 50px;
 }
 .Presentation img{
     width: 270px;
     border-radius: 1000px;
     margin: 0 100px;
 }
-.Presentation h3, .Presentation p{
-    font-family: 'Roboto Condensed', sans-serif;
+.Presentation h1{
+    margin-bottom: 20px;
 }
-.Presentation h3{
-    font-size: 42px;
+
+/*SECCION DESCRIPCION*/
+.Descripcion{
+    margin: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-.Presentation p{
-    font-size: 22px;
+.Descripcion h1{
+    margin-bottom: 20px;
+}
+
+/*SECCION LO QUE APRENDERAS*/
+.ContainerAprenderas{
+    align-items: center;
+    display: flex;
+    margin: 0 150px;
+    padding: 25px;
+}
+.Aprenderas{
+    margin: 35px;
+    padding: 35px;
+    border: 1px solid #206A5D;
+    border-radius: 15px;
+}
+.Aprenderas h1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Checks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Checks p{
+    width: 50%;
+    padding-bottom: 15px;
+}
+.ContainerAprenderas img{
+    width: 525px;
+    height: 525px;
 }
