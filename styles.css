@@ -34,7 +34,7 @@ header{
     justify-content: space-around;
     height: 75px;
     margin: 10px 100px;
-    border-bottom: 1px solid #206A5D;
+    border-bottom: 1px solid #197340;
 }
 .PageName{
     display: flex;
@@ -67,18 +67,36 @@ header ul li{
     transition: 0.5s;
 }
 header ul li:hover{
-    border-bottom: 2px solid #206A5D;
+    border-bottom: 2px solid #197340;
     transition: 0.5s;
 }
 /*FIN DEL HEADER*/
+
+/*ANIMACION*/
+.animacion{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+@keyframes mostrarArriba {
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/*FIN ANIMACION*/
 
 /*SECCION PRESENTACION*/
 .Presentation{
     display: flex;
     align-items: center;
     width: auto;
-    height: 550px;
-    margin: 0 65px 280px 65px;
+    height: 400px;
+    margin: 100px 65px 250px 65px;
 }
 .PresentationText{
     margin: 0 50px;
@@ -102,6 +120,10 @@ header ul li:hover{
 .Descripcion h1{
     margin-bottom: 20px;
 }
+.Horas{
+    margin-top: 25px;
+    font-size: 50px;
+}
 
 /*SECCION LO QUE APRENDERAS*/
 .ContainerAprenderas{
@@ -111,6 +133,7 @@ header ul li:hover{
     padding: 25px;
 }
 .Aprenderas{
+    width: 50%;
     margin: 35px;
     padding: 35px;
     border: 1px solid #206A5D;
@@ -131,4 +154,38 @@ header ul li:hover{
 .ContainerAprenderas img{
     width: 525px;
     height: 525px;
+}
+
+/*SECCION REQUISITOS*/
+.Requisitos{
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 170px 50px 170px;
+    padding: 25px;
+}
+.Requisitos ul li{
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+    list-style: circle;
+}
+.Requisitos h1{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #197340;
+    color: #fff;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.Autoria{
+    font-size: 15px;
 }
