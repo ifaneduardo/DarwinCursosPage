@@ -22,15 +22,21 @@
     </header>
     <main>
 
-        <section class="Descripcion">
-            <p>Un único pago el cual incluye todas las sesiones del nivel correspondiente.</p>
-            <p>El pago puede realizarse de manera individual.</p>
-            <p>Al adquirir el curso completo en un solo pago el nivel 1 es <strong>gratis</strong></p>
-            <p>La fecha limite de pago es el día del inicio de cada nivel</p>
+        <section class="DescripcionPago">
+            <div>
+                <p>Un único pago el cual incluye todas las sesiones del nivel correspondiente.</p>
+                <p>El pago puede realizarse de manera individual.</p>
+                <p>Al adquirir el curso completo en un solo pago el nivel 1 es <strong>gratis</strong>.</p>
+                <p>La fecha limite de pago es el día del inicio de cada nivel.</p>
+            </div>
+            <div class="containerIMG">
+                <img class="IMGpago" src="./imgs/IMG3.gif" alt="">
+            </div>
+
         </section>
 
         <section class="tablaPrecios">
-            <table class="default">
+            <table class="Precios">
                 <tr>
                     <th> Nivel </th>
                     <th> Fecha de inicio </th>
@@ -62,8 +68,8 @@
             </table>
         </section>
 
-        <section>
-            <div>
+        <section class="MetodosPago animacion">
+            <div class="Metodos">
                 <h1>Metodos de pago</h1>
                 <h3>Nacional (México):</h3>
                 <ul>
@@ -77,21 +83,31 @@
                     <li>PayPal.</li>
                 </ul>
             </div>
-            <div>
+            <div class="DatosBanco">
                 <h1>Datos bancarios</h1>
-                <p><strong>Nombre del beneficiarios:</strong> Darwin Hernández Gallegos</p>
-                <details>
-                    <summary>Pago desde cualquier banco:</summary>
-                    <p><strong>No. Tarjeta</strong> 4152 3137 9371 7286 </p>
-                </details>
-                <details>
-                    <summary>Pago de cuenta BBVA a BBVA:</summary>
-                    <p><strong>No. Cuenta</strong> 150 786 1110 </p>
-                </details>
-                <details>
-                    <summary>PayPal:</summary>
-                    <p><strong>Correo electrónico</strong> Marquezagallegos@gmail.com </p>
-                </details>
+                <p><strong>Nombre del beneficiario:</strong> Darwin Hernández Gallegos</p>
+
+                <table class="Precios">
+                    <tr>
+                        <th>Pago desde cualquier banco:</summary>
+                        <th>Pago de cuenta <img class="LogoBBVA"src="./imgs/bbva.png" alt="logotipo de bbva"> a <img class="LogoBBVA" src="./imgs/bbva.png" alt="logotipo de bbva">:</summary>
+                        
+                    </tr>
+                    <tr>
+                        <td><strong>No. Tarjeta</strong> 4152 3137 9371 7286 </td>    
+                        <td><strong>No. Cuenta</strong> 150 786 1110 </td>
+                    </tr>
+                </table>
+
+                    <table class="Precios">
+                        <tr>
+                            <th><img class="LogoPayPal" src="./imgs/paypal.png" alt="logotipo de paypal"></th>
+                        </tr>
+                        <tr>
+                            <td><strong>Correo electrónico: </strong> Marquezagallegos@gmail.com </td>
+                        </tr>
+                        
+                    </table>
             </div>
         </section>
 

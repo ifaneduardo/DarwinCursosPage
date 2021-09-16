@@ -14,7 +14,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 body{
     width: 100%;
-
 }
 h1,p{
     font-family: 'Roboto Condensed', sans-serif;
@@ -265,6 +264,80 @@ header ul li:hover{
 }
 
 /*SECCION PAGO*/
+.DescripcionPago{
+    text-align: end;
+    align-items: center;
+    display: flex;
+    margin: 0 150px;
+}
+.IMGpago{
+    width: 500px;
+}
+.tablaPrecios{
+    display: flex;
+    justify-content: center;
+    margin: 0 150px 150px 150px;
+    padding: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Precios{
+    background-color: rgb(25, 115, 64, 0.1);
+    border-radius: 5px;
+}
+.Precios th{
+    color: #fff;
+    font-size: 25px;
+    background-color: #206A5D;
+    padding: 10px;
+}
+.Precios td{
+    font-size: 22px;
+    font-weight: bold;
+}
+.Precios{
+    width: 100%;
+    text-align: center;
+}
+.MetodosPago{
+    display: flex;
+    margin: 0 150px;
+    padding: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #206A5D;
+}
+.Metodos{
+    width: 30%;
+}
+.Metodos h3{
+    font-size: 25px;
+    margin-top: 12px;
+}
+.Metodos li{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 22px;
+    list-style: decimal;
+}
+.DatosBanco{
+    width: 70%;
+}
+.DatosBanco h1{
+    margin-bottom: 15px;
+}
+.DatosBanco table{
+    margin-bottom: 25px;
+}
+.DatosBanco td{
+    padding: 12px;
+}
+.LogoPayPal{
+    width: 120px;
+}
+.LogoBBVA{
+    width: 65px;
+    margin: 0 3px;
+    margin-bottom: -3px;
+}
 
 
 
